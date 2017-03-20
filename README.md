@@ -1,5 +1,3 @@
-# Maskara-whmcs
-
 # Instruções
 
 Faça download ou clone o repositorio, coloque a pasta "maskara" em /modules/addons/
