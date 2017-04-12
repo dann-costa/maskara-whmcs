@@ -6,7 +6,7 @@ function maskara_config() {
 	$configarray = array(
 		'name' => 'Maskara',
 		'description' => 'Módulo Maskara para WHMCS.',
-		'version' => '0.1',
+		'version' => '0.2',
 		'language' => 'portuguese-br',
 		'author' => 'Daniel Costa - DC WEBSOLUTIONS',
 		);

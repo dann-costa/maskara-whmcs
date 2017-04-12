@@ -30,8 +30,8 @@ if (!defined("WHMCS"))
 			//Data de Nascimento
 			$javascript .= '$("#customfield'.$nascimentocampo.'").mask("99/99/9999", {placeholder: "dd/mm/aaaa"}); ';
 			//Telefone
-			$javascript .= '$("#phonenumber").mask("(99) 9999-9999?9"); ';
-			$javascript .= '$("#inputPhone").mask("(99) 9999-9999?9"); ';
+			$javascript .= '$("#phonenumber").mask("(99) 9999-99999"); ';
+			$javascript .= '$("#inputPhone").mask("(99) 9999-99999"); ';
 			//CEP
 			$javascript .= '$("#postcode").mask("99999-999"); ';
 			$javascript .= '$("#inputPostcode").mask("99999-999"); ';
@@ -50,15 +50,15 @@ if (!defined("WHMCS"))
 			//Data de Nascimento
 			$javascript .= '$("#customfield'.$nascimentocampo.'").mask("99/99/9999", {placeholder: "dd/mm/aaaa"}); ';
 			//Telefone
-			$javascript .= '$("#phonenumber").mask("(99) 9999-9999?9"); ';
-			$javascript .= '$("#inputPhone").mask("(99) 9999-9999?9"); ';
+			$javascript .= '$("#phonenumber").mask("(99) 9999-99999"); ';
+			$javascript .= '$("#inputPhone").mask("(99) 9999-99999"); ';
 			//CEP
 			$javascript .= '$("#postcode").mask("99999-999"); ';
 			$javascript .= '$("#inputPostcode").mask("99999-999"); ';
 			//Fechando Jquery das mascaras
 			$javascript .= ' });</script>';
 		}
-
+		
 		//Retorna o Javascript
 		return $javascript;
 	}
